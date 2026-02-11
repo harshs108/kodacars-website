@@ -115,10 +115,6 @@ const Navbar: React.FC = () => {
             Team
           </a>
 
-          <a href="#blog" className="h-full flex items-center px-4 text-base font-semibold text-gray-700 hover:text-koda-blue hover:bg-gray-50 border-b-2 border-transparent hover:border-koda-blue transition-all whitespace-nowrap">
-            Blog
-          </a>
-
           {/* Insights Dropdown */}
           <div 
             className="relative h-full flex items-center"
@@ -250,14 +246,6 @@ const Navbar: React.FC = () => {
               className="block px-4 py-4 text-lg font-bold text-gray-700 hover:text-koda-blue hover:bg-gray-50 transition-colors border-b border-gray-100"
             >
               Team
-            </a>
-
-            <a
-              href="#blog"
-              onClick={closeMobileMenu}
-              className="block px-4 py-4 text-lg font-bold text-gray-700 hover:text-koda-blue hover:bg-gray-50 transition-colors border-b border-gray-100"
-            >
-              Blog
             </a>
 
             {/* Insights Dropdown Mobile */}
