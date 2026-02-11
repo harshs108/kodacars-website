@@ -284,7 +284,7 @@ const ContactPage: React.FC = () => {
                 </div>
                 <h3 className="text-3xl font-bold text-koda-black mb-6">Request Received</h3>
                 <p className="text-gray-600 text-lg mb-12 leading-relaxed">
-                  Thank you, {formData.fullName}! An Enterprise Solutions Architect will contact you shortly to discuss your parking assets.
+                  Thank you, {formData.fullName}! Our team will contact you shortly to discuss your request.
                 </p>
                 <div className="pt-8 border-t border-gray-100">
                   <p className="text-xs font-bold text-gray-400 uppercase tracking-widest">Sent to</p>
