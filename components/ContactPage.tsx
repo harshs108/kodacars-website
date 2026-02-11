@@ -81,7 +81,7 @@ const ContactPage: React.FC = () => {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 lg:px-16 py-16 lg:py-24">
+      <div className="max-w-7xl mx-auto px-4 lg:px-16 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24">
           
           {/* Left Column: Contact Info, Map & Apps */}
