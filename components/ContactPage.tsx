@@ -288,7 +288,7 @@ const ContactPage: React.FC = () => {
                 </p>
                 <div className="pt-8 border-t border-gray-100">
                   <p className="text-xs font-bold text-gray-400 uppercase tracking-widest">Sent to</p>
-                  <p className="text-lg font-bold text-koda-black mt-2">ankitj2@damcogroup.com</p>
+                  <p className="text-lg font-bold text-koda-black mt-2">KodaCars Team!</p>
                 </div>
                 <button 
                   onClick={() => {
