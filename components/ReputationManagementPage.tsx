@@ -260,7 +260,7 @@ const ReputationManagementPage: React.FC = () => {
                     className="inline-flex items-center justify-center w-full bg-koda-blue text-white py-6 px-8 font-bold text-xl gap-3 hover:bg-koda-darkblue transition-all shadow-lg"
                   >
                     <Download size={24} />
-                    Download PDF ({whitepaperInfo?.size || '2.8 MB'})
+                    Download PDF Here
                   </button>
                   <p className="mt-8 text-sm text-gray-400 font-bold uppercase tracking-widest">A copy has been sent to {formData.email}</p>
                 </div>
