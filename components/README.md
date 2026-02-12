@@ -8,7 +8,7 @@ This folder contains your complete website with four major new features:
 
 1. **Google Analytics 4 tracking** - This will help you understand who visits your website, which pages they look at, and what actions they take (like submitting forms or downloading whitepapers)
 
-2. **Automatic email notifications** - When someone fills out the contact form or requests a whitepaper, you'll automatically receive an email at ankitj2@damcogroup.com
+2. **Automatic email notifications** - When someone fills out the contact form or requests a whitepaper, you'll automatically receive an email at sales@kodacars.com
 
 3. **Whitepaper download system** - After someone fills out a form on any of your insight pages, they can immediately download the PDF whitepaper
 
@@ -56,7 +56,7 @@ Let me explain what happens when someone visits your website and interacts with 
 2. They click "Connect with Sales"
 3. Behind the scenes, reCAPTCHA verifies they're a real person (not a robot)
 4. The form data is sent to Web3Forms
-5. Web3Forms sends an email to ankitj2@damcogroup.com with all their information
+5. Web3Forms sends an email to sales@kodacars.com with all their information
 6. The person sees a "thank you" message
 7. Google Analytics records that someone submitted the contact form
 
@@ -65,7 +65,7 @@ Let me explain what happens when someone visits your website and interacts with 
 1. They click on an insight (like "Customer Loyalty")
 2. They fill out a form with their name, email, and company
 3. They click "Download Whitepaper"
-4. An email notification is sent to ankitj2@damcogroup.com
+4. An email notification is sent to sales@kodacars.com
 5. They see a success message with a download button
 6. When they click download, the PDF file opens or downloads
 7. Google Analytics records which whitepaper was downloaded
@@ -134,7 +134,7 @@ And I'll help you resolve it.
 
 Everything I've set up follows best practices for security:
 - reCAPTCHA protects your forms from spam
-- All email submissions go only to ankitj2@damcogroup.com
+- All email submissions go only to sales@kodacars.com
 - Your API keys are meant to be kept private (don't share them publicly)
 - Google Analytics complies with privacy regulations
 - No user data is stored on your website; it's only sent via email

@@ -36,7 +36,7 @@ const LargeVehiclePage: React.FC = () => {
         throw new Error('reCAPTCHA verification failed. Please try again.');
       }
 
-      // Step 2: Send email notification to ankitj2@damcogroup.com
+      // Step 2: Send email notification to sales@kodacars.com
       const emailSent = await sendWhitepaperRequest({
         firstName: formData.firstName,
         lastName: formData.lastName,

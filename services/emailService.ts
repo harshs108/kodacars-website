@@ -7,7 +7,7 @@
  * How it works:
  * 1. User fills out a form
  * 2. Form data is sent to Web3Forms API
- * 3. Web3Forms forwards the email to ankitj2@damcogroup.com
+ * 3. Web3Forms forwards the email to sales@kodacars.com
  * 4. User receives confirmation
  */
 
@@ -49,7 +49,7 @@ export const sendContactForm = async (data: ContactFormData): Promise<boolean> =
       phone: data.phone,
       parking_spaces: data.spaces || "Not provided",
       message: data.comments || "No additional comments",
-      to_email: "ankitj2@damcogroup.com",
+      to_email: "sales@kodacars.com",
     };
 
     const response = await fetch(WEB3FORMS_API, {
@@ -93,7 +93,7 @@ export const sendWhitepaperRequest = async (data: WhitepaperFormData): Promise<b
       email: data.email,
       company: data.company,
       whitepaper: data.whitepaperType,
-      to_email: "ankitj2@damcogroup.com",
+      to_email: "sales@kodacars.com",
     };
 
     const response = await fetch(WEB3FORMS_API, {

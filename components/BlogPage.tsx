@@ -63,7 +63,7 @@ const BlogPage: React.FC = () => {
       formData.append('subject', 'New Newsletter Subscription - KodaCars Blog');
       formData.append('from_name', 'KodaCars Blog Newsletter');
       formData.append('email', email);
-      formData.append('to_email', 'ankitj2@damcogroup.com');
+      formData.append('to_email', 'sales@kodacars.com');
       formData.append('message', `New newsletter subscription from: ${email}\n\nSource: Blog Page\nTimestamp: ${new Date().toLocaleString()}`);
 
       const response = await fetch('https://api.web3forms.com/submit', {

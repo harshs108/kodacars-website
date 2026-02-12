@@ -10,7 +10,7 @@ This guide will walk you through setting up your KodaCars website with all the n
 We've added four major features to your website:
 
 1. **Google Analytics 4 (GA4) Tracking** - Track visitor behavior and form submissions
-2. **Form Submission System** - Automatically send emails to ankitj2@damcogroup.com
+2. **Form Submission System** - Automatically send emails to sales@kodacars.com
 3. **PDF Whitepaper Downloads** - Let users download whitepapers after filling forms
 4. **reCAPTCHA Protection** - Prevent spam on your contact form
 
@@ -102,13 +102,13 @@ Replace `G-XXXXXXXXXX` with your actual Measurement ID.
 
 ### B. Web3Forms (For Email Submissions)
 
-**What it does:** Sends form submissions to your email (ankitj2@damcogroup.com) without needing a backend server.
+**What it does:** Sends form submissions to your email (sales@kodacars.com) without needing a backend server.
 
 **How to get it:**
 
 1. Go to https://web3forms.com
 2. Click "Get Started - It's Free"
-3. Enter your email: ankitj2@damcogroup.com
+3. Enter your email: sales@kodacars.com
 4. Check your email for the **Access Key**
 5. The access key looks like: `a1b2c3d4-e5f6-7890-abcd-ef1234567890`
 
@@ -257,7 +257,7 @@ VITE v6.2.0  ready in 500 ms
 1. Go to the Contact page (click "Contact Sales" in navigation)
 2. Fill out the form with test data
 3. Submit it
-4. Check if you receive an email at ankitj2@damcogroup.com
+4. Check if you receive an email at sales@kodacars.com
 
 **Test Whitepaper Downloads:**
 1. Click on "Insights" in the navigation
@@ -390,7 +390,7 @@ If you get stuck at any point:
 
 Once you've completed all these steps:
 1. Your website will be tracking visitors with Google Analytics
-2. Contact forms will send emails to ankitj2@damcogroup.com
+2. Contact forms will send emails to sales@kodacars.com
 3. Whitepaper forms will send notifications and trigger PDF downloads
 4. Your contact form will be protected from spam with reCAPTCHA
 

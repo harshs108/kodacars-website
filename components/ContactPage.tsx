@@ -61,7 +61,7 @@ const ContactPage: React.FC = () => {
       }
     } catch (err) {
       setLoading(false);
-      setError(err instanceof Error ? err.message : 'An error occurred. Please try again or contact us directly at ankitj2@damcogroup.com');
+      setError(err instanceof Error ? err.message : 'An error occurred. Please try again or contact us directly at sales@kodacars.com');
       console.error('Contact form error:', err);
     }
   };
