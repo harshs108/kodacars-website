@@ -12,7 +12,7 @@ export const WHITEPAPERS: Record<string, WhitepaperPDF> = {
     id: 'customer-loyalty',
     title: 'Customer Loyalty: Building Customer Loyalty in Off-Airport Parking',
     filename: 'customer-loyalty.pdf',
-    url: '/whitepapers/customer-loyalty.pdf', // Replace with actual URL
+    url: 'public/whitepapers/customer-loyalty.pdf', // Replace with actual URL
   },
   'large-vehicle': {
     id: 'large-vehicle',
