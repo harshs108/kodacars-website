@@ -138,7 +138,7 @@ export const verifyRecaptcha = async (): Promise<string | null> => {
 
     // Execute reCAPTCHA and get token
     // Replace with your actual reCAPTCHA site key
-    const token = await window.grecaptcha.execute('6LdRd14sAAAAAMdfyjpjxnsMS9525FlxlhKyKxxu', {
+    const token = await window.grecaptcha.execute('6LeyhWksAAAAABqP_qr0a6wVG9gUuKwqfgNHrKOF', {
       action: 'submit'
     });
     
