@@ -17,7 +17,7 @@ const WEB3FORMS_API = "https://api.web3forms.com/submit";
 // Your Web3Forms Access Key
 // You'll need to get this from https://web3forms.com (it's free)
 // For now, using a demo key - REPLACE THIS with your actual key
-const ACCESS_KEY = "5d728ed2-e7fa-4fa4-99f4-ee9aa09bdb5a";
+const ACCESS_KEY = "79d3024b-f632-4cb4-b364-f8d467e8d586";
 
 export interface ContactFormData {
   fullName: string;
