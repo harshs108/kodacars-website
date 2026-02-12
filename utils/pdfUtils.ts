@@ -1,25 +1,8 @@
-/**
- * PDF Download Utilities for KodaCars Whitepapers
- * 
- * This file handles PDF downloads for whitepapers.
- * 
- * IMPORTANT NOTE:
- * You'll need to upload your actual PDF files to a hosting service.
- * Options include:
- * 1. Google Drive (with public sharing link)
- * 2. Dropbox (with public link)
- * 3. Amazon S3
- * 4. Your own server
- * 
- * For now, this uses placeholder URLs that you'll need to replace.
- */
-
 export interface WhitepaperPDF {
   id: string;
   title: string;
   filename: string;
   url: string;
-  size: string;
 }
 
 // This is where you define all your whitepapers
@@ -28,37 +11,32 @@ export const WHITEPAPERS: Record<string, WhitepaperPDF> = {
   'customer-loyalty': {
     id: 'customer-loyalty',
     title: 'Customer Loyalty: Building Customer Loyalty in Off-Airport Parking',
-    filename: 'KodaCars-Customer-Loyalty-Whitepaper.pdf',
-    url: 'https://drive.google.com/uc?export=download&id=1_t5WWRATAgft5ze67PelXcW0fkoAdxBk', // Replace with actual URL
-    size: '3.1 MB'
+    filename: 'customer-loyalty.pdf',
+    url: 'public/whitepapers/customer-loyalty.pdf', // Replace with actual URL
   },
   'large-vehicle': {
     id: 'large-vehicle',
     title: 'Large Vehicle: Capturing Lost Revenue from Large Vehicles',
-    filename: 'KodaCars-Large-Vehicle-Whitepaper.pdf',
-    url: 'https://drive.google.com/uc?export=download&id=1_t5WWRATAgft5ze67PelXcW0fkoAdxBk', // Replace with actual URL
-    size: '18.4 KB'
+    filename: 'Large-Vehicles.pdf',
+    url: 'public/whitepapers/large-vehicle.pdf', // Replace with actual URL
   },
   'reputation-management': {
     id: 'reputation-management',
     title: 'Reputation Management: Leveraging Digital Excellence',
-    filename: 'KodaCars-Reputation-Management-Whitepaper.pdf',
-    url: 'https://drive.google.com/uc?export=download&id=1_t5WWRATAgft5ze67PelXcW0fkoAdxBk', // Replace with actual URL
-    size: '18.4 KB'
+    filename: 'Reputation.pdf',
+    url: 'public/whitepapers/reputation-management.pdf', // Replace with actual URL
   },
   'self-check-in': {
     id: 'self-check-in',
     title: 'Self Check In: Transforming Hotel Off-Airport Parking',
-    filename: 'KodaCars-Self-Check-In-Whitepaper.pdf',
-    url: 'https://drive.google.com/uc?export=download&id=1_t5WWRATAgft5ze67PelXcW0fkoAdxBk', // Replace with actual URL
-    size: '18.4 KB'
+    filename: 'Self-Check-In.pdf',
+    url: 'public/whitepapers/self-check-in.pdf', // Replace with actual URL
   },
   'shuttle-services': {
     id: 'shuttle-services',
     title: 'Shuttle Services: Reduce Friction and Drive Satisfaction',
-    filename: 'KodaCars-Shuttle-Services-Whitepaper.pdf',
-    url: 'https://drive.google.com/uc?export=download&id=1_t5WWRATAgft5ze67PelXcW0fkoAdxBk', // Replace with actual URL
-    size: '18.4 KB'
+    filename: 'Shuttle-Service.pdf',
+    url: 'public/whitepapers/shuttle-services.pdf', // Replace with actual URL
   }
 };
 
