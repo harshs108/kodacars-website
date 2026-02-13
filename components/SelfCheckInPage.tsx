@@ -258,7 +258,6 @@ const SelfCheckInPage: React.FC = () => {
                     <Download size={24} />
                     Download PDF Here
                   </button>
-                  <p className="mt-8 text-sm text-gray-400 font-bold uppercase tracking-widest">A copy has been sent to {formData.email}</p>
                 </div>
               )}
 
