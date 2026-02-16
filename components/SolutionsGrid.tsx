@@ -49,7 +49,7 @@ const SolutionCard: React.FC<SolutionCardProps> = ({ icon, title, description, i
         )}
       </div>
       
-      <div className="flex items-center text-white font-bold text-lg mt-auto group-hover:text-koda-blue group-hover:translate-x-2 transition-all duration-300">
+      <div className="flex items-center text-white font-bold text-lg mt-auto group-hover:opacity-0 group-hover:pointer-events-none transition-all duration-300">
         Learn more <ArrowRight size={22} className="ml-3" />
       </div>
     </div>
