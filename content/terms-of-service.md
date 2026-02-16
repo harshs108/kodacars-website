@@ -6,13 +6,13 @@ collect, store, use, and/or share ("process") your information when you
 use our services ("Services"), such as when you:
 
 -   Visit our website at https://www.kodacars.com, or any website of
-    ours that links to this privacy notice\
+    ours that links to this privacy notice.
 -   Download and use our mobile application (KodaCars), or any other
-    application of ours that links to this privacy notice\
+    application of ours that links to this privacy notice.
 -   Engage with us in other related ways, including any sales,
-    marketing, or events
+    marketing, or events.
 
-**Questions or concerns?**\
+**Questions or concerns?**
 Reading this privacy notice will help you understand your privacy rights
 and choices. If you do not agree with our policies and practices, please
 do not use our Services. If you still have any questions or concerns,
@@ -44,10 +44,10 @@ social media platforms, and other outside sources.
 ### How do we process your information?
 
 We process your information to: - Provide, improve, and administer our
-Services\
-- Communicate with you\
-- Ensure security and prevent fraud\
-- Comply with legal obligations\
+Services
+- Communicate with you
+- Ensure security and prevent fraud
+- Comply with legal obligations
 - Fulfill other purposes with your consent
 
 ### When and with whom do we share personal information?
