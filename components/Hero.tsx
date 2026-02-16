@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
         
         {/* Left Column: Text & Stats */}
         <div className="flex flex-col items-start text-left animate-fade-in-up overflow-hidden">
-          <p className="text-xs sm:text-sm md:text-base font-bold text-koda-purple tracking-widest uppercase mb-4 lg:mb-6">
+          <p className="text-[0.75rem] font-bold text-koda-purple tracking-widest uppercase mb-4 lg:mb-6">
             Trusted by near-AIRPORT parking businesses across the nation
           </p>
           <h1 className="text-4xl lg:text-6xl xl:text-7xl font-normal text-koda-black leading-[1.1] mb-5 lg:mb-8 tracking-tight">
