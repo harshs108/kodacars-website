@@ -60,7 +60,7 @@ const HowItWorks: React.FC = () => {
         <div className="mb-16">
           <h2 className="text-3xl lg:text-5xl font-normal text-koda-black mb-6">How It Works</h2>
           <p className="text-xl lg:text-2xl text-gray-700 font-semibold max-w-2xl">
-            Purpose-built for airport parking businesses to maximize every space, capture every revenue opportunity, and run smoother operations—without adding overhead.
+            Purpose-built for near-airport parking businesses to maximize every space, capture every revenue opportunity, and run smoother operations—without adding overhead.
           </p>
         </div>
 
