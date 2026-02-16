@@ -20,6 +20,8 @@ import NearAirportPage from './components/NearAirportPage';
 import HotelParkingPage from './components/HotelParkingPage';
 import BlogPage from './components/BlogPage';
 import BlogPostPage from './components/BlogPostPage';
+import TermsOfServicePage from './components/TermsOfServicePage';
+import PrivacyPolicyPage from './components/PrivacyPolicyPage';
 
 const App: React.FC = () => {
   const [currentPath, setCurrentPath] = useState(window.location.hash || '#');
@@ -107,6 +109,15 @@ const App: React.FC = () => {
     // Contact Page
     if (currentPath === '#contact') {
       return <ContactPage />;
+    }
+
+    // Legal Pages
+    if (currentPath === '#terms-of-service') {
+      return <TermsOfServicePage />;
+    }
+
+    if (currentPath === '#privacy-policy') {
+      return <PrivacyPolicyPage />;
     }
 
     // Dedicated Team Page
