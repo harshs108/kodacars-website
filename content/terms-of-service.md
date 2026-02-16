@@ -74,30 +74,30 @@ You may submit a data subject access request or contact us directly.
 # TABLE OF CONTENTS
 
 1.  [What Information Do We
-    Collect?](#1-what-information-do-we-collect)\
+    Collect?](#1-what-information-do-we-collect)
 2.  [How Do We Process Your
-    Information?](#2-how-do-we-process-your-information)\
+    Information?](#2-how-do-we-process-your-information)
 3.  [When and With Whom Do We Share Your Personal
-    Information?](#3-when-and-with-whom-do-we-share-your-personal-information)\
+    Information?](#3-when-and-with-whom-do-we-share-your-personal-information)
 4.  [Do We Use Cookies and Other Tracking
-    Technologies?](#4-do-we-use-cookies-and-other-tracking-technologies)\
+    Technologies?](#4-do-we-use-cookies-and-other-tracking-technologies)
 5.  [How Do We Handle Your Social
-    Logins?](#5-how-do-we-handle-your-social-logins)\
+    Logins?](#5-how-do-we-handle-your-social-logins)
 6.  [How Long Do We Keep Your
-    Information?](#6-how-long-do-we-keep-your-information)\
+    Information?](#6-how-long-do-we-keep-your-information)
 7.  [How Do We Keep Your Information
-    Safe?](#7-how-do-we-keep-your-information-safe)\
+    Safe?](#7-how-do-we-keep-your-information-safe)
 8.  [Do We Collect Information From
-    Minors?](#8-do-we-collect-information-from-minors)\
-9.  [What Are Your Privacy Rights?](#9-what-are-your-privacy-rights)\
+    Minors?](#8-do-we-collect-information-from-minors)
+9.  [What Are Your Privacy Rights?](#9-what-are-your-privacy-rights)
 10. [Controls for Do-Not-Track
-    Features](#10-controls-for-do-not-track-features)\
+    Features](#10-controls-for-do-not-track-features)
 11. [Do United States Residents Have Specific Privacy
-    Rights?](#11-do-united-states-residents-have-specific-privacy-rights)\
+    Rights?](#11-do-united-states-residents-have-specific-privacy-rights)
 12. [Do We Make Updates to This
-    Notice?](#12-do-we-make-updates-to-this-notice)\
+    Notice?](#12-do-we-make-updates-to-this-notice)
 13. [How Can You Contact Us About This
-    Notice?](#13-how-can-you-contact-us-about-this-notice)\
+    Notice?](#13-how-can-you-contact-us-about-this-notice)
 14. [How Can You Review, Update, or Delete the Data We Collect From
     You?](#14-how-can-you-review-update-or-delete-the-data-we-collect-from-you)
 
@@ -111,38 +111,38 @@ You may submit a data subject access request or contact us directly.
 
 We collect personal information that you voluntarily provide when you:
 
--   Register on the Services\
--   Request information about products or Services\
--   Participate in activities\
+-   Register on the Services
+-   Request information about products or Services
+-   Participate in activities
 -   Contact us
 
 ### Personal Information Provided by You
 
 May include:
 
--   Names\
--   Phone numbers\
--   Email addresses\
--   Mailing addresses\
--   Passwords\
--   Contact preferences\
--   Contact or authentication data\
--   Billing addresses\
--   Driver license information\
--   Car registration information\
--   Auto insurance policy information\
+-   Names
+-   Phone numbers
+-   Email addresses
+-   Mailing addresses
+-   Passwords
+-   Contact preferences
+-   Contact or authentication data
+-   Billing addresses
+-   Driver license information
+-   Car registration information
+-   Auto insurance policy information
 -   Geolocation information
 
 ### Sensitive Information
 
 With consent or as permitted by law:
 
--   Social security numbers\
+-   Social security numbers
 -   Government identifiers
 
 ### Payment Data
 
-Payment data is processed by **Stripe**.\
+Payment data is processed by **Stripe**.
 Stripe Privacy Policy: https://stripe.com/privacy
 
 We do **not** store customer credit card information.
@@ -156,21 +156,21 @@ information described in Section 5.
 
 If you use our mobile application, we may collect:
 
--   **Geolocation Information**\
--   **Mobile Device Data**\
+-   **Geolocation Information**
+-   **Mobile Device Data**
 -   **Push Notification Preferences**
 
 ### Automatically Collected Information
 
 We may collect:
 
--   IP address\
--   Browser and device characteristics\
--   Operating system\
--   Language preferences\
--   Usage behavior\
--   Log and usage data\
--   Device data\
+-   IP address
+-   Browser and device characteristics
+-   Operating system
+-   Language preferences
+-   Usage behavior
+-   Log and usage data
+-   Device data
 -   Location data
 
 We also use cookies and similar tracking technologies.
@@ -179,10 +179,10 @@ We also use cookies and similar tracking technologies.
 
 We may collect information from:
 
--   Public databases\
--   Marketing partners\
--   Affiliate programs\
--   Data providers\
+-   Public databases
+-   Marketing partners
+-   Affiliate programs
+-   Data providers
 -   Social media platforms
 
 This may include contact details, job titles, behavioral data, and
@@ -194,15 +194,15 @@ profile information.
 
 We process your personal information to:
 
--   Create and manage user accounts\
--   Deliver Services\
--   Respond to inquiries\
--   Send administrative updates\
--   Fulfill and manage orders\
--   Request feedback\
--   Send marketing communications\
--   Deliver targeted advertising\
--   Analyze usage trends\
+-   Create and manage user accounts
+-   Deliver Services
+-   Respond to inquiries
+-   Send administrative updates
+-   Fulfill and manage orders
+-   Request feedback
+-   Send marketing communications
+-   Deliver targeted advertising
+-   Analyze usage trends
 -   Improve marketing effectiveness
 
 ------------------------------------------------------------------------
@@ -211,10 +211,10 @@ We process your personal information to:
 
 We may share information:
 
--   During business transfers (merger, acquisition, sale)\
--   With Google Analytics\
--   With Google Maps Platform APIs\
--   With affiliates\
+-   During business transfers (merger, acquisition, sale)
+-   With Google Analytics
+-   With Google Maps Platform APIs
+-   With affiliates
 -   With business partners
 
 We do not sell personal information.
@@ -223,7 +223,7 @@ We do not sell personal information.
 
 # 4. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
 
-Yes. We use cookies, web beacons, and similar technologies.\
+Yes. We use cookies, web beacons, and similar technologies.
 See our Cookie Notice for more details.
 
 ------------------------------------------------------------------------
@@ -233,9 +233,9 @@ See our Cookie Notice for more details.
 If you log in via a third-party social media provider, we may receive
 profile information such as:
 
--   Name\
--   Email address\
--   Friends list\
+-   Name
+-   Email address
+-   Friends list
 -   Profile picture
 
 We recommend reviewing your social media provider's privacy policy.
@@ -254,7 +254,7 @@ unless legally required.
 
 # 7. HOW DO WE KEEP YOUR INFORMATION SAFE?
 
-We use organizational and technical security measures.\
+We use organizational and technical security measures.
 However, no method of transmission or storage is 100% secure.
 
 ------------------------------------------------------------------------
@@ -263,7 +263,7 @@ However, no method of transmission or storage is 100% secure.
 
 We do not knowingly collect data from individuals under 18 years of age.
 
-If you believe we have collected such data, contact:\
+If you believe we have collected such data, contact:
 **brahm.sharma@KodaCars.com**
 
 ------------------------------------------------------------------------
@@ -272,12 +272,12 @@ If you believe we have collected such data, contact:\
 
 You may:
 
--   Withdraw consent\
--   Opt out of marketing communications\
--   Review or update account information\
+-   Withdraw consent
+-   Opt out of marketing communications
+-   Review or update account information
 -   Request account deletion
 
-To exercise your rights, email:\
+To exercise your rights, email:
 **privacy@kodacars.com**
 
 ------------------------------------------------------------------------
@@ -295,31 +295,31 @@ have additional rights under state privacy laws.
 
 These may include:
 
--   Right to access\
--   Right to correction\
--   Right to deletion\
--   Right to opt-out of targeted advertising\
--   Right to limit use of sensitive information\
+-   Right to access
+-   Right to correction
+-   Right to deletion
+-   Right to opt-out of targeted advertising
+-   Right to limit use of sensitive information
 -   Right to non-discrimination
 
-To exercise these rights, contact:\
-**privacy@kodacars.com**\
+To exercise these rights, contact:
+**privacy@kodacars.com**
 or submit a data subject access request.
 
 ------------------------------------------------------------------------
 
 # 12. DO WE MAKE UPDATES TO THIS NOTICE?
 
-Yes. We may update this notice periodically.\
+Yes. We may update this notice periodically.
 The revised version will include an updated date.
 
 ------------------------------------------------------------------------
 
 # 13. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
 
-**BSFive Corporation**\
-103 Carnegie Center Drive\
-Princeton, NJ 08540\
+**BSFive Corporation**
+103 Carnegie Center Drive
+Princeton, NJ 08540
 United States
 
 Email: **brahm.sharma@KodaCars.com**
