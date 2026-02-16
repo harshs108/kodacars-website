@@ -1,5 +1,3 @@
-# Privacy Policy
-
 **Last updated:** February 17, 2025
 
 BSFive Corporation, operating as **KodaCars** ("we," "us," or "our"), is
