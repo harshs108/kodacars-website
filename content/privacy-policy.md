@@ -67,19 +67,19 @@ You can submit data requests or contact us directly.
 
 # TABLE OF CONTENTS
 
-1.  What Information Do We Collect?\
-2.  How Do We Process Your Information?\
-3.  When and With Whom Do We Share Your Personal Information?\
-4.  Do We Use Cookies and Other Tracking Technologies?\
-5.  How Do We Handle Your Social Logins?\
-6.  How Long Do We Keep Your Information?\
-7.  How Do We Keep Your Information Safe?\
-8.  Do We Collect Information from Minors?\
-9.  What Are Your Privacy Rights?\
-10. Controls for Do-Not-Track Features\
-11. Do United States Residents Have Specific Privacy Rights?\
-12. Do We Make Updates to This Notice?\
-13. How Can You Contact Us About This Notice?\
+1.  What Information Do We Collect?
+2.  How Do We Process Your Information?
+3.  When and With Whom Do We Share Your Personal Information?
+4.  Do We Use Cookies and Other Tracking Technologies?
+5.  How Do We Handle Your Social Logins?
+6.  How Long Do We Keep Your Information?
+7.  How Do We Keep Your Information Safe?
+8.  Do We Collect Information from Minors?
+9.  What Are Your Privacy Rights?
+10. Controls for Do-Not-Track Features
+11. Do United States Residents Have Specific Privacy Rights?
+12. Do We Make Updates to This Notice?
+13. How Can You Contact Us About This Notice?
 14. How Can You Review, Update, or Delete the Data We Collect from You?
 
 ------------------------------------------------------------------------
@@ -90,12 +90,12 @@ You can submit data requests or contact us directly.
 
 We may collect:
 
--   Name, phone number, and email address\
--   Mailing and billing addresses\
--   Passwords and authentication data\
--   Contact preferences\
--   Driver license and car registration information\
--   Auto insurance policy details\
+-   Name, phone number, and email address
+-   Mailing and billing addresses
+-   Passwords and authentication data
+-   Contact preferences
+-   Driver license and car registration information
+-   Auto insurance policy details
 -   Geolocation data
 
 ### Sensitive Information
@@ -116,17 +116,17 @@ described in Section 5.
 
 ### Application Data
 
--   Geolocation Data (with permission)\
--   Device Data (device ID, IP address, OS, carrier)\
+-   Geolocation Data (with permission)
+-   Device Data (device ID, IP address, OS, carrier)
 -   Push Notifications (with consent)
 
 ------------------------------------------------------------------------
 
 ## Information Collected Automatically
 
--   IP address and browser/device information\
--   Usage patterns and actions taken\
--   Geolocation data (adjustable in device settings)\
+-   IP address and browser/device information
+-   Usage patterns and actions taken
+-   Geolocation data (adjustable in device settings)
 -   Cookies and similar tracking technologies
 
 ------------------------------------------------------------------------
@@ -142,14 +142,14 @@ programs, or social media platforms.
 
 We use your information to:
 
--   Create and manage accounts\
--   Deliver services\
--   Respond to support requests\
--   Send administrative updates\
--   Process transactions\
--   Request feedback\
--   Send marketing communications (based on preferences)\
--   Provide personalized content\
+-   Create and manage accounts
+-   Deliver services
+-   Respond to support requests
+-   Send administrative updates
+-   Process transactions
+-   Request feedback
+-   Send marketing communications (based on preferences)
+-   Provide personalized content
 -   Analyze trends and improve services
 
 ------------------------------------------------------------------------
@@ -158,9 +158,9 @@ We use your information to:
 
 We may share your data for:
 
--   Business transfers\
--   Analytics services\
--   Location-based services\
+-   Business transfers
+-   Analytics services
+-   Location-based services
 -   Affiliates and business partners
 
 We do not sell personal information.
@@ -210,9 +210,9 @@ Contact: **brahm.sharma@kodacars.com**
 
 You may:
 
--   Withdraw consent\
--   Opt out of marketing\
--   Access or update your data\
+-   Withdraw consent
+-   Opt out of marketing
+-   Access or update your data
 -   Request deletion
 
 Contact: **privacy@kodacars.com**
@@ -230,14 +230,14 @@ We do not currently respond to Do-Not-Track browser signals.
 Residents of California, Colorado, Connecticut, Utah, and Virginia may
 have additional rights including:
 
--   Access\
--   Correction\
--   Deletion\
--   Data portability\
+-   Access
+-   Correction
+-   Deletion
+-   Data portability
 -   Opt-out of targeted advertising
 
-To exercise rights:\
-Email: **privacy@kodacars.com**\
+To exercise rights:
+Email: **privacy@kodacars.com**
 Submit request: https://www.kodacars.com/contact-us/
 
 ------------------------------------------------------------------------
@@ -251,9 +251,9 @@ when posted.
 
 # 13. How Can You Contact Us About This Notice?
 
-**BSFive Corporation**\
-103 Carnegie Center Drive\
-Princeton, NJ 08540\
+**BSFive Corporation**
+103 Carnegie Center Drive
+Princeton, NJ 08540
 United States
 
 Email: **brahm.sharma@kodacars.com**
