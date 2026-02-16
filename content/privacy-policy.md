@@ -6,10 +6,10 @@ we collect, store, use, and share ("process") your personal information
 when you use our services ("Services"), including:
 
 -   Visiting our website at https://www.kodacars.com or any site that
-    links to this policy\
+    links to this policy.
 -   Downloading and using our mobile application (KodaCars) or any
-    related applications\
--   Engaging with us through sales, marketing, or events
+    related applications.
+-   Engaging with us through sales, marketing, or events.
 
 If you have any questions or concerns about this policy, please contact
 us at **privacy@kodacars.com**. If you do not agree with our practices,
@@ -65,7 +65,7 @@ You can submit data requests or contact us directly.
 
 ------------------------------------------------------------------------
 
-# TABLE OF CONTENTS
+## TABLE OF CONTENTS
 
 1.  What Information Do We Collect?
 2.  How Do We Process Your Information?
