@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
 
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center pt-8 border-t border-gray-300">
         <div className="flex items-center gap-6 mb-4 md:mb-0">
-          <span className="text-sm text-gray-600 font-bold">© 2025 KodaCars. All Rights Reserved. Built for high-performance parking assets.</span>
+          <span className="text-sm text-gray-600 font-bold">© 2026 KodaCars. All Rights Reserved. Built for high-performance parking assets.</span>
         </div>
       </div>
     </footer>
