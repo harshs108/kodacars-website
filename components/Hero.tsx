@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
             </h2>
             <div className="w-full rounded-lg overflow-hidden shadow-2xl bg-black border border-gray-100 mb-10 aspect-video relative">
               <video 
-                src="/kodacars-website/videos/hero-video.mp4" 
+                src="/videos/hero-video.mp4" 
                 className="w-full h-full object-cover"
                 autoPlay
                 loop
