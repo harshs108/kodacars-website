@@ -52,7 +52,7 @@ const AiPlatformSection: React.FC = () => {
       desc: "Streamline arrivals and departures with digital check-in solutions that save time." 
     },
     { 
-      image: "https://images.unsplash.com/photo-1556742044-3c52d6e88c62?auto=format&fit=crop&q=80&w=800",
+      image: "/images/customer-loyalty-bg.jpg",
       icon: <Heart size={40} strokeWidth={1.5} />, 
       title: "Customer Loyalty Tools", 
       desc: "Drive repeat business with targeted promotions, loyalty rewards, and personalized marketing." 
