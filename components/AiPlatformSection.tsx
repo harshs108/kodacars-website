@@ -46,8 +46,8 @@ const AiPlatformSection: React.FC = () => {
       desc: "Manage reservations, modifications, and cancellations within one seamless system." 
     },
     { 
-      image: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&q=80&w=800",
-      icon: <DoorOpen size={40} strokeWidth={1.5} />, 
+      image: "/images/checkin-bg.jpg",
+      icon: <DoorOpen size={40} strokeWidth={1.5} />,
       title: "Automated Check-In/Out", 
       desc: "Streamline arrivals and departures with digital check-in solutions that save time." 
     },
