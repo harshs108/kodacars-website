@@ -7,6 +7,19 @@ name: Deploy KodaCars to GitHub Pages
 on:
   push:
     branches:
+      - main
+
+# Define what permissions this workflow needs
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Ensure only one deployment runs at a time
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
   # Build job: This compiles your React app into static files
   build:
