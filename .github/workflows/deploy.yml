@@ -3,7 +3,7 @@ name: Build and Deploy to GoDaddy (FTP)
 on:
   push:
     branches:
-      - production   # change if using different branch
+      - Production   # change if using different branch
 
 jobs:
   build-and-deploy:
