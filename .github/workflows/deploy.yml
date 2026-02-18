@@ -7,7 +7,7 @@ name: Deploy KodaCars to GitHub Pages
 on:
   push:
     branches:
-      - dev
+      - main
 
 # Define what permissions this workflow needs
 permissions:
