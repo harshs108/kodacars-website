@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
         <div className="w-full animate-fade-in-up delay-100 flex flex-col items-center lg:items-end">
           <div className="w-full max-w-2xl">
             <h2 className="text-3xl lg:text-4xl font-normal text-koda-black mb-6 tracking-tight text-center">
-              Same Spaces, <span className="font-bold">Higher Profits.</span>
+              Same Space, <span className="font-bold">Higher Profits.</span>
             </h2>
             <div className="w-full rounded-lg overflow-hidden shadow-2xl bg-black border border-gray-100 mb-10 aspect-video relative">
               <video 
