@@ -109,9 +109,9 @@ const AiPlatformSection: React.FC = () => {
                 
                 {/* Front Face */}
                 <div className="absolute inset-0 [backface-visibility:hidden] border border-gray-200 bg-white overflow-hidden flex flex-col transition-all duration-500 lg:group-hover:shadow-xl lg:group-hover:border-koda-blue">
-                  <div className="absolute top-0 left-0 w-1.5 h-full bg-koda-blue transform scale-y-0 lg:group-hover:scale-y-100 transition-transform duration-500 origin-top z-30"></div>
+                  <div className="absolute top-0 left-0 w-1.5 h-full bg-koda-blue transform scale-y-0 lg:group-hover:scale-y-100 transition-transform duration-500 origin-top"></div>
                   
-                  <div className="absolute inset-0 z-0">
+                  <div className="absolute inset-0">
                     <img 
                       src={feature.image} 
                       alt={feature.title} 
@@ -120,7 +120,7 @@ const AiPlatformSection: React.FC = () => {
                     <div className="absolute inset-0 bg-black/40 transition-colors duration-500 lg:group-hover:bg-white/95"></div>
                   </div>
 
-                  <div className="relative z-20 h-full flex flex-col p-8 lg:p-10">
+                  <div className="relative h-full flex flex-col p-8 lg:p-10">
                     <div className="mb-8 text-white lg:group-hover:text-koda-blue transition-all duration-500 transform lg:group-hover:scale-110 origin-left">
                       {feature.icon}
                     </div>
@@ -142,9 +142,9 @@ const AiPlatformSection: React.FC = () => {
 
                 {/* Back Face (Mobile) */}
                 <div className="absolute inset-0 [backface-visibility:hidden] [transform:rotateY(180deg)] border border-koda-blue bg-white overflow-hidden flex flex-col p-8 lg:hidden shadow-2xl">
-                  <div className="absolute top-0 right-0 w-1.5 h-full bg-koda-blue z-30"></div>
+                  <div className="absolute top-0 right-0 w-1.5 h-full bg-koda-blue"></div>
                   
-                  <div className="relative z-20 h-full flex flex-col">
+                  <div className="relative h-full flex flex-col">
                     <div className="mb-6 text-koda-blue">
                       {feature.icon}
                     </div>
