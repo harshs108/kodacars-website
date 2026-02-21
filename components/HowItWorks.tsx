@@ -75,7 +75,7 @@ const HowItWorks: React.FC = () => {
               <div className={`relative w-full h-full transition-transform duration-700 [transform-style:preserve-3d] ${flippedIndex === idx ? '[transform:rotateY(180deg)]' : ''}`}>
                 
                 {/* Front Face: Visible by default, handles hover logic on desktop */}
-                <div className="absolute inset-0 [backface-visibility:hidden] [-webkit-backface-visibility:hidden] p-6 lg:p-10 bg-white border border-gray-200 flex flex-col justify-center transition-all duration-500 lg:group-hover:border-koda-blue lg:group-hover:shadow-xl overflow-hidden">
+                <div className="absolute inset-0 [backface-visibility:hidden] p-6 lg:p-10 bg-white border border-gray-200 flex flex-col justify-center transition-all duration-500 lg:group-hover:border-koda-blue lg:group-hover:shadow-xl overflow-hidden">
                   {/* Vertical Expansion Bar (Desktop) */}
                   <div className="absolute top-0 left-0 w-1.5 h-0 bg-koda-blue lg:group-hover:h-full transition-all duration-300"></div>
 
@@ -85,7 +85,7 @@ const HowItWorks: React.FC = () => {
                   </div>
                   
                   {/* Content Wrapper */}
-                  <div className="relative z-10 w-full">
+                  <div className="relative w-full">
                     {/* Icon */}
                     <div className="mb-6 lg:mb-8 text-koda-black lg:group-hover:text-koda-blue transition-colors duration-500">
                       {step.icon}
@@ -116,7 +116,7 @@ const HowItWorks: React.FC = () => {
                 </div>
 
                 {/* Back Face: Visible only on mobile flip */}
-                <div className="absolute inset-0 [backface-visibility:hidden] [-webkit-backface-visibility:hidden] [transform:rotateY(180deg)] p-6 lg:p-10 bg-white border-2 border-koda-blue flex flex-col justify-center lg:hidden shadow-2xl overflow-hidden">
+                <div className="absolute inset-0 [backface-visibility:hidden] [transform:rotateY(180deg)] p-6 lg:p-10 bg-white border-2 border-koda-blue flex flex-col justify-center lg:hidden shadow-2xl overflow-hidden">
                   {/* Step Title on Back */}
                   <h3 className="text-base font-bold text-koda-blue mb-4 uppercase tracking-widest border-b border-gray-100 pb-2">
                     {step.title}
