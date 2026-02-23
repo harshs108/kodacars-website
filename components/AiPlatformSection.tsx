@@ -22,7 +22,7 @@ const AiPlatformSection: React.FC = () => {
 
   const features: FeatureItem[] = [
     { 
-      image: "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?auto=format&fit=crop&q=80&w=800", 
+      image: "/images/smart-pricing-bg.jpg",
       icon: <LineChart size={40} strokeWidth={1.5} />,
       title: "Smart Engine Pricing", 
       desc: "Set dynamic pricing based on demand, seasonality, and booking patterns to maximize revenue." 
