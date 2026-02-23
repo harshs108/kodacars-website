@@ -85,7 +85,7 @@ const HowItWorks: React.FC = () => {
                   </div>
                   
                   {/* Content Wrapper */}
-                  <div className="relative z-10 w-full">
+                  <div className="relative w-full">
                     {/* Icon */}
                     <div className="mb-6 lg:mb-8 text-koda-black lg:group-hover:text-koda-blue transition-colors duration-500">
                       {step.icon}
