@@ -8,10 +8,11 @@ interface SolutionCardProps {
   id: string;
   image: string;
   bullets?: string[];
+  href?: string;
 }
 
-const SolutionCard: React.FC<SolutionCardProps> = ({ icon, title, description, id, image, bullets }) => (
-  <div id={id} className="group flex flex-col p-12 border border-gray-200 bg-white hover:border-koda-blue transition-all duration-500 min-h-[520px] relative overflow-hidden cursor-pointer shadow-sm hover:shadow-xl">
+const SolutionCard: React.FC<SolutionCardProps> = ({ icon, title, description, id, image, bullets, href }) => (
+  <div id={id} onClick={href ? () => { window.location.hash = href; } : undefined} className="group flex flex-col p-12 border border-gray-200 bg-white hover:border-koda-blue transition-all duration-500 min-h-[520px] relative overflow-hidden cursor-pointer shadow-sm hover:shadow-xl">
     <div className="absolute inset-0 z-0 transition-all duration-700">
       <img 
         src={image} 
@@ -49,7 +50,7 @@ const SolutionCard: React.FC<SolutionCardProps> = ({ icon, title, description, i
         )}
       </div>
       
-      <div className="flex items-center text-white font-bold text-lg mt-auto group-hover:opacity-0 group-hover:pointer-events-none transition-all duration-300">
+      <div className={`flex items-center font-bold text-lg mt-auto transition-all duration-300 ${href ? 'text-white group-hover:text-koda-blue' : 'text-white group-hover:opacity-0 group-hover:pointer-events-none'}`}>
         Learn more <ArrowRight size={22} className="ml-3" />
       </div>
     </div>
@@ -72,12 +73,13 @@ const SolutionsGrid: React.FC = () => {
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-           <SolutionCard 
+           <SolutionCard
              id="near-airport"
              icon={<Plane size={56} strokeWidth={1.5} />}
              image="https://lh3.googleusercontent.com/d/1n7yPUUhUeDrTSV-BmBrx36IZIzeBAe8f"
              title="Near-Airport Parking"
              description="Optimize real-time parking capacity with smart booking tracking technology."
+             href="#near-airport"
              bullets={[
                "Dynamic pricing that automatically adjusts rates based on real-time demand",
                "Automated check-in/out to eliminate bottlenecks and reduce labor costs",
