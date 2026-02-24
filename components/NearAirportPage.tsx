@@ -305,7 +305,7 @@ const NearAirportPage: React.FC = () => {
       </section>
 
       {/* ───────────────────────── HOW IT WORKS ───────────────────────── */}
-      <section id="nap-how-it-works" className="py-24 bg-koda-black text-white scroll-mt-16 overflow-hidden relative" ref={howItWorksReveal.ref}>
+      <section id="nap-how-it-works" className="py-24 bg-koda-purple text-white scroll-mt-16 overflow-hidden relative" ref={howItWorksReveal.ref}>
         <div className="absolute top-0 right-0 w-1/2 h-full bg-koda-blue/5 blur-[120px] pointer-events-none"></div>
         <div className="max-w-7xl mx-auto px-4 lg:px-16 relative z-10">
           <div className={`mb-20 transition-all duration-700 ${howItWorksReveal.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
