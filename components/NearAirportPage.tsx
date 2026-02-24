@@ -146,7 +146,7 @@ const NearAirportPage: React.FC = () => {
               className="text-xl lg:text-2xl text-gray-700 leading-relaxed font-medium mb-12 max-w-3xl"
               style={{ opacity: 0, animation: 'fadeInUp 0.6s ease-out forwards', animationDelay: '0.2s' }}
             >
-              Independent parking operators are giving up 25–30% of every reservation to OTAs. KodaCars shifts your customers from third-party bookings to direct reservations — so every dollar stays where it belongs.
+              Stop giving 25–30% of every reservation to OTAs — shift your customers to direct bookings with KodaCars.
             </p>
 
             <div style={{ opacity: 0, animation: 'fadeInUp 0.6s ease-out forwards', animationDelay: '0.3s' }}>
@@ -188,7 +188,7 @@ const NearAirportPage: React.FC = () => {
       <section className="py-24 bg-white" ref={solutionReveal.ref}>
         <div className="max-w-7xl mx-auto px-4 lg:px-16">
           <div className={`mb-20 transition-all duration-700 ${solutionReveal.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-            <div className="w-12 h-1.5 bg-koda-green mb-8"></div>
+            <div className="w-12 h-1.5 bg-koda-blue mb-8"></div>
             <h2 className="text-3xl lg:text-5xl font-normal text-koda-black mb-6 tracking-tight">
               Your Lot. Your Customers. <span className="font-bold">Your Revenue.</span>
             </h2>
@@ -264,11 +264,11 @@ const NearAirportPage: React.FC = () => {
                   <div className={`relative w-full h-full transition-transform duration-700 [transform-style:preserve-3d] ${flippedCard === cardIdx ? '[transform:rotateY(180deg)]' : ''}`}>
                     {/* Front Face */}
                     <div className="absolute inset-0 [backface-visibility:hidden] bg-white p-8 lg:p-10 border border-gray-200 flex flex-col transition-all duration-500 lg:group-hover:border-koda-blue lg:group-hover:shadow-xl overflow-hidden">
-                      <div className="absolute top-0 left-0 w-1.5 h-full bg-koda-green transform scale-y-0 lg:group-hover:scale-y-100 transition-transform duration-500 origin-top"></div>
-                      <div className="text-koda-green mb-6 transition-transform duration-500 lg:group-hover:scale-110 flex-shrink-0">
+                      <div className="absolute top-0 left-0 w-1.5 h-full bg-koda-blue transform scale-y-0 lg:group-hover:scale-y-100 transition-transform duration-500 origin-top"></div>
+                      <div className="text-koda-blue mb-6 transition-transform duration-500 lg:group-hover:scale-110 flex-shrink-0">
                         {sol.icon}
                       </div>
-                      <h3 className="text-xl lg:text-2xl font-bold text-koda-black mb-4 leading-tight flex-shrink-0 lg:group-hover:text-koda-green transition-colors duration-500">
+                      <h3 className="text-xl lg:text-2xl font-bold text-koda-black mb-4 leading-tight flex-shrink-0 lg:group-hover:text-koda-blue transition-colors duration-500">
                         {sol.title}
                       </h3>
                       <div className="hidden lg:block flex-grow overflow-y-auto">
@@ -282,8 +282,8 @@ const NearAirportPage: React.FC = () => {
                     </div>
 
                     {/* Back Face (mobile only) */}
-                    <div className="absolute inset-0 [backface-visibility:hidden] [transform:rotateY(180deg)] bg-white p-8 flex flex-col lg:hidden border-2 border-koda-green overflow-hidden">
-                      <div className="text-koda-green mb-4 flex-shrink-0">
+                    <div className="absolute inset-0 [backface-visibility:hidden] [transform:rotateY(180deg)] bg-white p-8 flex flex-col lg:hidden border-2 border-koda-blue overflow-hidden">
+                      <div className="text-koda-blue mb-4 flex-shrink-0">
                         {sol.icon}
                       </div>
                       <h3 className="text-base font-bold text-koda-black mb-3 uppercase tracking-widest flex-shrink-0">
@@ -292,7 +292,7 @@ const NearAirportPage: React.FC = () => {
                       <p className="text-gray-700 text-base font-medium leading-relaxed flex-grow overflow-y-auto">
                         {sol.desc}
                       </p>
-                      <div className="mt-4 flex items-center text-koda-green font-bold text-sm uppercase tracking-widest gap-2 flex-shrink-0">
+                      <div className="mt-4 flex items-center text-koda-blue font-bold text-sm uppercase tracking-widest gap-2 flex-shrink-0">
                         Close <ArrowRight size={16} className="rotate-180" />
                       </div>
                     </div>
@@ -324,17 +324,17 @@ const NearAirportPage: React.FC = () => {
                 }`}
                 style={{ transitionDelay: howItWorksReveal.isVisible ? `${idx * 150 + 200}ms` : '0ms' }}
               >
-                <div className="p-8 lg:p-10 border border-white/10 bg-white/5 hover:bg-white/10 hover:border-koda-blue/50 transition-all duration-500 h-full flex flex-col">
-                  <div className="text-5xl font-bold text-white/10 mb-6 group-hover:text-koda-blue/20 transition-colors duration-500">
+                <div className="relative p-8 lg:p-10 border border-white/10 bg-white/5 hover:bg-white/10 hover:border-koda-blue/50 transition-all duration-500 h-full flex flex-col">
+                  <div className="text-5xl lg:text-7xl font-bold text-white/10 absolute top-4 right-6 lg:right-8 select-none group-hover:text-koda-blue/5 transition-colors duration-500">
                     {step.number}
                   </div>
-                  <div className="text-koda-green mb-4 group-hover:scale-110 transition-transform duration-500 origin-left">
+                  <div className="relative text-white/70 mb-4 group-hover:text-white group-hover:scale-110 transition-all duration-500 origin-left">
                     {step.icon}
                   </div>
-                  <h3 className="text-2xl font-bold mb-4 group-hover:text-koda-green transition-colors duration-500">
+                  <h3 className="relative text-2xl font-bold mb-4 group-hover:text-white transition-colors duration-500">
                     {step.title}
                   </h3>
-                  <p className="text-white/70 text-base leading-relaxed font-medium flex-grow">
+                  <p className="relative text-white/70 text-base leading-relaxed font-medium flex-grow">
                     {step.desc}
                   </p>
                 </div>
@@ -394,7 +394,7 @@ const NearAirportPage: React.FC = () => {
               </div>
               <a
                 href="#contact"
-                className="px-8 py-5 border-2 border-koda-black text-koda-black font-bold text-lg hover:bg-koda-black hover:text-white transition-all inline-flex items-center group"
+                className="px-8 py-5 border-2 border-koda-blue text-koda-blue font-bold text-lg hover:bg-koda-darkblue hover:border-koda-darkblue hover:text-white transition-all inline-flex items-center group"
               >
                 Explore P2P Car Sharing <ArrowRight className="ml-4 group-hover:translate-x-1 transition-transform" size={20} />
               </a>
