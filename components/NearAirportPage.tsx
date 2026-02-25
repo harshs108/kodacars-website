@@ -126,36 +126,50 @@ const NearAirportPage: React.FC = () => {
       <section className="py-20 lg:py-28 border-b border-gray-100 overflow-hidden relative">
         <div className="absolute top-0 right-0 w-1/2 h-full bg-koda-blue/5 blur-[120px] pointer-events-none"></div>
         <div className="max-w-7xl mx-auto px-4 lg:px-16 relative z-10">
-          <div className="max-w-4xl">
-            <div
-              className="flex items-center gap-3 text-koda-blue mb-8"
-              style={{ opacity: 0, animation: 'fadeInUp 0.6s ease-out forwards' }}
-            >
-              <Plane size={24} />
-              <span className="uppercase tracking-[0.25em] text-xs font-bold">Near-Airport Parking</span>
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <div
+                className="flex items-center gap-3 text-koda-blue mb-8"
+                style={{ opacity: 0, animation: 'fadeInUp 0.6s ease-out forwards' }}
+              >
+                <Plane size={24} />
+                <span className="uppercase tracking-[0.25em] text-xs font-bold">Near-Airport Parking</span>
+              </div>
+
+              <h1
+                className="text-4xl lg:text-6xl xl:text-7xl font-normal text-koda-black leading-tight mb-8 tracking-tight"
+                style={{ opacity: 0, animation: 'fadeInUp 0.6s ease-out forwards', animationDelay: '0.1s' }}
+              >
+                Stop Losing Revenue to <span className="font-bold">Third-Party Channels</span>
+              </h1>
+
+              <p
+                className="text-xl lg:text-2xl text-gray-700 leading-relaxed font-medium mb-12"
+                style={{ opacity: 0, animation: 'fadeInUp 0.6s ease-out forwards', animationDelay: '0.2s' }}
+              >
+                Stop giving 25–30% of every reservation to OTAs — shift your customers to direct bookings with KodaCars.
+              </p>
+
+              <div style={{ opacity: 0, animation: 'fadeInUp 0.6s ease-out forwards', animationDelay: '0.3s' }}>
+                <button
+                  onClick={() => scrollToSection('nap-how-it-works')}
+                  className="px-8 py-5 bg-koda-blue text-white font-bold text-lg hover:bg-koda-darkblue transition-all inline-flex items-center group shadow-lg"
+                >
+                  See How It Works <ArrowRight className="ml-4 group-hover:translate-x-1 transition-transform" size={20} />
+                </button>
+              </div>
             </div>
 
-            <h1
-              className="text-4xl lg:text-6xl xl:text-7xl font-normal text-koda-black leading-tight mb-8 tracking-tight"
-              style={{ opacity: 0, animation: 'fadeInUp 0.6s ease-out forwards', animationDelay: '0.1s' }}
+            <div
+              className="relative"
+              style={{ opacity: 0, animation: 'fadeInUp 0.6s ease-out forwards', animationDelay: '0.4s' }}
             >
-              Stop Losing Revenue to <span className="font-bold">Third-Party Channels</span>
-            </h1>
-
-            <p
-              className="text-xl lg:text-2xl text-gray-700 leading-relaxed font-medium mb-12 max-w-3xl"
-              style={{ opacity: 0, animation: 'fadeInUp 0.6s ease-out forwards', animationDelay: '0.2s' }}
-            >
-              Stop giving 25–30% of every reservation to OTAs — shift your customers to direct bookings with KodaCars.
-            </p>
-
-            <div style={{ opacity: 0, animation: 'fadeInUp 0.6s ease-out forwards', animationDelay: '0.3s' }}>
-              <button
-                onClick={() => scrollToSection('nap-how-it-works')}
-                className="px-8 py-5 bg-koda-blue text-white font-bold text-lg hover:bg-koda-darkblue transition-all inline-flex items-center group shadow-lg"
-              >
-                See How It Works <ArrowRight className="ml-4 group-hover:translate-x-1 transition-transform" size={20} />
-              </button>
+              <div className="absolute -bottom-10 -left-10 w-64 h-64 bg-koda-blue/5 rounded-full blur-3xl -z-10"></div>
+              <img
+                src="https://images.pexels.com/photos/2655864/pexels-photo-2655864.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Aerial view of a near-airport parking lot full of cars"
+                className="w-full h-auto object-cover shadow-2xl rounded-sm border border-gray-100"
+              />
             </div>
           </div>
         </div>
@@ -164,21 +178,31 @@ const NearAirportPage: React.FC = () => {
       {/* ───────────────────────── THE PROBLEM ───────────────────────── */}
       <section className="py-24 bg-gray-50/50 border-b border-gray-100" ref={problemReveal.ref}>
         <div className={`max-w-7xl mx-auto px-4 lg:px-16 transition-all duration-700 ${problemReveal.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          <div className="max-w-3xl">
-            <div className="w-12 h-1.5 bg-koda-blue mb-8"></div>
-            <h2 className="text-3xl lg:text-5xl font-normal text-koda-black mb-10 tracking-tight">
-              The Margin Squeeze <span className="font-bold">Is Real</span>
-            </h2>
-            <div className="space-y-6 text-lg lg:text-xl text-gray-700 leading-relaxed font-medium">
-              <p>
-                Every time a traveler books through a third-party channel, you lose. You lower your rates to stay competitive. You pay commissions just to fill your lot. Your cost of service keeps climbing while your revenue keeps shrinking.
-              </p>
-              <p>
-                And the worst part? The repeat customer who parks with you every month — you're still paying a commission every single time they book, because they're not really <em className="not-italic font-bold text-koda-black">your</em> customer. They belong to the platform.
-              </p>
-              <p className="text-koda-black font-bold text-xl lg:text-2xl pt-6 border-t border-gray-200">
-                That changes today.
-              </p>
+          <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <div className="w-12 h-1.5 bg-koda-blue mb-8"></div>
+              <h2 className="text-3xl lg:text-5xl font-normal text-koda-black mb-10 tracking-tight">
+                The Margin Squeeze <span className="font-bold">Is Real</span>
+              </h2>
+              <div className="space-y-6 text-lg lg:text-xl text-gray-700 leading-relaxed font-medium">
+                <p>
+                  Every time a traveler books through a third-party channel, you lose. You lower your rates to stay competitive. You pay commissions just to fill your lot. Your cost of service keeps climbing while your revenue keeps shrinking.
+                </p>
+                <p>
+                  And the worst part? The repeat customer who parks with you every month — you're still paying a commission every single time they book, because they're not really <em className="not-italic font-bold text-koda-black">your</em> customer. They belong to the platform.
+                </p>
+                <p className="text-koda-black font-bold text-xl lg:text-2xl pt-6 border-t border-gray-200">
+                  That changes today.
+                </p>
+              </div>
+            </div>
+            <div className="relative">
+              <div className="absolute -top-10 -right-10 w-64 h-64 bg-koda-blue/5 rounded-full blur-3xl -z-10"></div>
+              <img
+                src="https://images.pexels.com/photos/19185198/pexels-photo-19185198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Bird's-eye view of a near-airport parking lot with organized rows of cars"
+                className="w-full h-auto object-cover shadow-2xl rounded-sm border border-gray-100"
+              />
             </div>
           </div>
         </div>
@@ -351,9 +375,16 @@ const NearAirportPage: React.FC = () => {
       {/* ───────────────────────── KEY BENEFITS ───────────────────────── */}
       <section className="py-24 bg-gray-50/50 border-b border-gray-100" ref={benefitsReveal.ref}>
         <div className={`max-w-7xl mx-auto px-4 lg:px-16 transition-all duration-700 ${benefitsReveal.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          <div className="max-w-3xl mx-auto text-center mb-16">
+          <div className="max-w-3xl mx-auto text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-koda-black mb-4 tracking-tight">Key Benefits</h2>
             <div className="w-12 h-1.5 bg-koda-green mx-auto"></div>
+          </div>
+          <div className="max-w-4xl mx-auto mb-12">
+            <img
+              src="https://images.pexels.com/photos/2402235/pexels-photo-2402235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="Aerial view of an organized near-airport parking lot"
+              className="w-full h-64 lg:h-80 object-cover rounded-sm shadow-lg border border-gray-100"
+            />
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {benefits.map((benefit, idx) => (
@@ -400,8 +431,13 @@ const NearAirportPage: React.FC = () => {
               </a>
             </div>
 
-            <div className="relative">
+            <div className="relative space-y-8">
               <div className="absolute -top-10 -right-10 w-64 h-64 bg-koda-green/5 rounded-full blur-3xl -z-10"></div>
+              <img
+                src="https://images.pexels.com/photos/21782997/pexels-photo-21782997.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="People near cars at a near-airport parking lot"
+                className="w-full h-56 lg:h-64 object-cover rounded-sm shadow-lg border border-gray-100"
+              />
               <div className="bg-koda-purple/5 p-10 lg:p-14 border border-gray-100">
                 <div className="space-y-8">
                   <div className="flex items-start gap-4">
