@@ -325,7 +325,7 @@ const NearAirportPage: React.FC = () => {
                 style={{ transitionDelay: howItWorksReveal.isVisible ? `${idx * 150 + 200}ms` : '0ms' }}
               >
                 <div className="relative p-8 lg:p-10 border border-white/10 bg-white/5 hover:bg-white/10 hover:border-koda-blue/50 transition-all duration-500 h-full flex flex-col">
-                  <div className="text-5xl lg:text-7xl font-bold text-white/10 absolute top-4 right-6 lg:right-8 select-none group-hover:text-koda-blue/5 transition-colors duration-500">
+                  <div className="text-5xl lg:text-7xl font-bold text-white/10 absolute top-4 right-6 lg:right-8 select-none group-hover:text-white transition-colors duration-500">
                     {step.number}
                   </div>
                   <div className="relative text-white/70 mb-4 group-hover:text-white group-hover:scale-110 transition-all duration-500 origin-left">
@@ -353,7 +353,7 @@ const NearAirportPage: React.FC = () => {
         <div className={`max-w-7xl mx-auto px-4 lg:px-16 transition-all duration-700 ${benefitsReveal.isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-koda-black mb-4 tracking-tight">Key Benefits</h2>
-            <div className="w-12 h-1.5 bg-koda-blue mx-auto"></div>
+            <div className="w-12 h-1.5 bg-koda-green mx-auto"></div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {benefits.map((benefit, idx) => (
@@ -394,7 +394,7 @@ const NearAirportPage: React.FC = () => {
               </div>
               <a
                 href="#contact"
-                className="px-8 py-5 border-2 border-koda-blue text-koda-blue font-bold text-lg hover:bg-koda-darkblue hover:border-koda-darkblue hover:text-white transition-all inline-flex items-center group"
+                className="px-8 py-5 border-2 border-koda-green text-koda-green font-bold text-lg hover:bg-koda-green hover:border-koda-green hover:text-white transition-all inline-flex items-center group"
               >
                 Explore P2P Car Sharing <ArrowRight className="ml-4 group-hover:translate-x-1 transition-transform" size={20} />
               </a>
@@ -405,7 +405,7 @@ const NearAirportPage: React.FC = () => {
               <div className="bg-koda-purple/5 p-10 lg:p-14 border border-gray-100">
                 <div className="space-y-8">
                   <div className="flex items-start gap-4">
-                    <Car size={28} className="text-koda-blue shrink-0 mt-1" />
+                    <Car size={28} className="text-koda-green shrink-0 mt-1" />
                     <div>
                       <h4 className="font-bold text-koda-black text-lg mb-1">New Revenue Stream</h4>
                       <p className="text-gray-600 font-medium">Earn from vehicles already sitting in your lot</p>
@@ -419,7 +419,7 @@ const NearAirportPage: React.FC = () => {
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
-                    <Award size={28} className="text-koda-blue shrink-0 mt-1" />
+                    <Award size={28} className="text-koda-green shrink-0 mt-1" />
                     <div>
                       <h4 className="font-bold text-koda-black text-lg mb-1">Exclusive Positioning</h4>
                       <p className="text-gray-600 font-medium">Become the go-to lot for P2P-enabled travelers</p>
