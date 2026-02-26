@@ -194,8 +194,8 @@ const HotelParkingPage: React.FC = () => {
             <div className="relative">
               <div className="absolute -top-10 -right-10 w-64 h-64 bg-koda-blue/5 rounded-full blur-3xl -z-10"></div>
               <img
-                src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=1200"
-                alt="Hotel exterior with parking area"
+                src="/images/hotel-checkin.jpg"
+                alt="Hotel lobby check-in area"
                 className="w-full h-auto object-cover shadow-2xl rounded-sm border border-gray-100"
               />
             </div>
